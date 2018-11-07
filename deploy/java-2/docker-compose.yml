@@ -1,0 +1,6 @@
+web:
+  image: tomcat:8.0-jre8
+  ports:
+    - "0.0.0.0:5007:8080"
+  volumes:
+    - /hf18/challenges/java-2/web/:/usr/local/tomcat/webapps/

@@ -1,0 +1,6 @@
+web:
+  image: php:7.0-apache
+  ports:
+    - "0.0.0.0:5016:80"
+  volumes:
+    - /hf18/challenges/lfi-2/web/:/var/www/html

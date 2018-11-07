@@ -1,0 +1,6 @@
+web:
+  image: php:7.0-apache
+  ports:
+    - "0.0.0.0:5002:80"
+  volumes:
+    - /hf18/challenges/rdi-1/web/:/var/www/html

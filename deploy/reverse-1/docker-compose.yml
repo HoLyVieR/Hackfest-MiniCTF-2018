@@ -1,0 +1,8 @@
+ssh:
+  image: hf18-reverse-1
+  ports:
+    - "0.0.0.0:5013:22"
+  cap_add:
+    - SYS_PTRACE
+  security_opt:
+    - apparmor:unconfined

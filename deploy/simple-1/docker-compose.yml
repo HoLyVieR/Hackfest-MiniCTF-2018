@@ -1,0 +1,6 @@
+web:
+  image: php:7.0-apache
+  ports:
+    - "0.0.0.0:5015:80"
+  volumes:
+    - /hf18/challenges/simple-1/web/:/var/www/html
